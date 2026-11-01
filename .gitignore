@@ -1,0 +1,28 @@
+# Configurações de ambiente e chaves secretas
+.env
+credenciais_gcp.json
+
+# Dados locais do Data Lake
+credenciais_gcp.json
+
+# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.exemplo
+credenciais_gcp.json
+*credentials*.json
+*service-account*.json
+
+# Ambientes virtuais
+.venv/
+.venv312/
+venv/
+
+# Cache Python e testes
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Arquivos temporarios
+*.log

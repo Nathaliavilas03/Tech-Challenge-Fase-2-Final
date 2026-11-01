@@ -1,0 +1,22 @@
+indicador,valor,unidade,tabela_gold,gold_run_ts
+"Taxa de alfabetização Brasil, rede pública, 2023",55.9,%,gold_brasil_resultado_vs_meta,20261031_232517
+Meta pactuada Brasil para 2023,,%,gold_brasil_resultado_vs_meta,20261031_232517
+Situação da meta Brasil 2023,sem meta cadastrada,-,gold_brasil_resultado_vs_meta,20261031_232517
+"Taxa recalculada pelos microdados, 2023",57.46,%,gold_brasil_resultado_vs_meta,20261031_232517
+"Taxa de alfabetização Brasil, rede pública, 2024",59.2,%,gold_brasil_resultado_vs_meta,20261031_232517
+Meta pactuada Brasil para 2024,59.9,%,gold_brasil_resultado_vs_meta,20261031_232517
+Situação da meta Brasil 2024,não atingiu,-,gold_brasil_resultado_vs_meta,20261031_232517
+"Taxa recalculada pelos microdados, 2024",59.2,%,gold_brasil_resultado_vs_meta,20261031_232517
+"Taxa de alfabetização Brasil, rede pública, 2025",66.0,%,gold_brasil_resultado_vs_meta,20261031_232517
+Meta pactuada Brasil para 2025,64.0,%,gold_brasil_resultado_vs_meta,20261031_232517
+Situação da meta Brasil 2025,atingiu,-,gold_brasil_resultado_vs_meta,20261031_232517
+"Taxa recalculada pelos microdados, 2025",,%,gold_brasil_resultado_vs_meta,20261031_232517
+"Meta pactuada 2030 (rede pública, fonte)",80.0,%,gold_brasil_resultado_vs_meta,20261031_232517
+Distância até a meta pactuada 2030 a partir de 2025,14.0,p.p.,gold_brasil_resultado_vs_meta,20261031_232517
+Distância até o cenário aspiracional (100%) a partir de 2025,34.0,p.p.,gold_brasil_resultado_vs_meta,20261031_232517
+Cenário de tendência linear Brasil 2030 (não é previsão),90.67,%,gold_cenario_2030,20261031_232517
+Municípios (2024): atingiu,2788,municípios,gold_municipio_resultado_vs_meta,20261031_232517
+Municípios (2024): não atingiu,2444,municípios,gold_municipio_resultado_vs_meta,20261031_232517
+Municípios (2024): sem meta cadastrada,216,municípios,gold_municipio_resultado_vs_meta,20261031_232517
+Maior taxa entre UFs (2025): CE,84.0,%,gold_uf_resultado_vs_meta,20261031_232517
+Menor taxa entre UFs (2025): RN,48.0,%,gold_uf_resultado_vs_meta,20261031_232517

@@ -1,0 +1,95 @@
+gold_run_ts,regra,tabela,tipo,status,valor,limiar,detalhe,registrado_em
+20261031_212958,codigo_unico_no_dicionario:alunos.presenca,gold_microdados,bloqueante,APROVADO,1,1,"dicionário: {'0': 'Ausente', '1': 'Presente'}",2026-10-31T21:30:11.585085+00:00
+20261031_212958,codigo_unico_no_dicionario:alunos.preenchimento_caderno,gold_microdados,bloqueante,APROVADO,1,1,"dicionário: {'0': 'Prova não preenchida', '1': 'Prova preenchida'}",2026-10-31T21:30:11.624082+00:00
+20261031_212958,codigo_unico_no_dicionario:alunos.alfabetizado,gold_microdados,bloqueante,APROVADO,1,1,"dicionário: {'0': 'Não', '1': 'Sim'}",2026-10-31T21:30:11.627073+00:00
+20261031_212958,rede_chave_injetiva:alunos,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T21:30:11.667218+00:00
+20261031_212958,codigo_desconhecido:alunos.rede,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T21:30:12.143326+00:00
+20261031_212958,rede_desconhecida,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T21:30:14.428245+00:00
+20261031_212958,uf_derivada_do_codigo_ibge,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T21:30:15.026400+00:00
+20261031_212958,rede_chave_injetiva:municipio,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.302854+00:00
+20261031_212958,codigo_desconhecido:municipio.rede,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.309859+00:00
+20261031_212958,rede_desconhecida,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.337858+00:00
+20261031_212958,codigo_desconhecido:municipio.serie,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.343852+00:00
+20261031_212958,rede_desconhecida,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.365862+00:00
+20261031_212958,chave_unica:ano+id_municipio+rede_chave,meta_alfabetizacao_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.375382+00:00
+20261031_212958,chave_unica:ano+id_municipio+rede_chave,municipio (recorte),bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.385389+00:00
+20261031_212958,anos_resultado_sem_tabela_meta:municipio_x_meta_municipio,gold_municipio,informativa,APROVADO,0,0,,2026-10-31T21:30:18.391389+00:00
+20261031_212958,tipos_chaves_compativeis:municipio_x_meta_municipio,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.393391+00:00
+20261031_212958,taxa_correspondencia_join:municipio_x_meta_municipio,gold_municipio,bloqueante,APROVADO,0.9778,0.9,10654/10896 linhas com par,2026-10-31T21:30:18.426391+00:00
+20261031_212958,tipos_chaves_compativeis:municipio_x_pesos_alunos,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.450384+00:00
+20261031_212958,taxa_correspondencia_join:municipio_x_pesos_alunos,gold_municipio,informativa,REPROVADO,0.9425,0.95,10269/10896 linhas com par,2026-10-31T21:30:18.480609+00:00
+20261031_212958,consistencia_taxa_municipio_vs_tabela_meta,gold_municipio,bloqueante,APROVADO,0.9997,0.95,"6620 idênticas e 10581 até 0,5 p.p. de 10584 comparáveis; maior diferença 36.07 p.p.",2026-10-31T21:30:18.490915+00:00
+20261031_212958,rede_chave_injetiva:uf,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.615247+00:00
+20261031_212958,codigo_desconhecido:uf.rede,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.618242+00:00
+20261031_212958,rede_desconhecida,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.621241+00:00
+20261031_212958,codigo_desconhecido:uf.serie,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.625248+00:00
+20261031_212958,rede_desconhecida,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.631239+00:00
+20261031_212958,chave_unica:ano+sigla_uf+rede_chave,meta_alfabetizacao_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.634247+00:00
+20261031_212958,chave_unica:ano+sigla_uf+rede_chave,uf (recorte),bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.641242+00:00
+20261031_212958,anos_resultado_sem_tabela_meta:uf_x_meta_uf,gold_uf,informativa,APROVADO,0,0,,2026-10-31T21:30:18.643247+00:00
+20261031_212958,tipos_chaves_compativeis:uf_x_meta_uf,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.645239+00:00
+20261031_212958,taxa_correspondencia_join:uf_x_meta_uf,gold_uf,bloqueante,APROVADO,1.0,0.95,49/49 linhas com par,2026-10-31T21:30:18.653252+00:00
+20261031_212958,consistencia_taxa_uf_vs_tabela_meta,gold_uf,bloqueante,APROVADO,1.0,0.95,"42 idênticas e 49 até 0,5 p.p. de 49 comparáveis; maior diferença 0.05 p.p.",2026-10-31T21:30:18.659250+00:00
+20261031_212958,tipos_chaves_compativeis:uf_x_pesos_alunos,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.668786+00:00
+20261031_212958,taxa_correspondencia_join:uf_x_pesos_alunos,gold_uf,informativa,REPROVADO,0.6316,0.95,48/76 linhas com par,2026-10-31T21:30:18.676783+00:00
+20261031_212958,rede_desconhecida,gold_brasil,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.715912+00:00
+20261031_212958,chave_unica:ano+rede_chave,meta_alfabetizacao_brasil,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.717911+00:00
+20261031_212958,tipos_chaves_compativeis:brasil_x_agregado_ufs,gold_brasil,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.747905+00:00
+20261031_212958,taxa_correspondencia_join:brasil_x_agregado_ufs,gold_brasil,informativa,REPROVADO,0.6667,1.0,2/3 linhas com par,2026-10-31T21:30:18.759087+00:00
+20261031_212958,tipos_chaves_compativeis:brasil_x_microdado,gold_brasil,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.763081+00:00
+20261031_212958,taxa_correspondencia_join:brasil_x_microdado,gold_brasil,informativa,REPROVADO,0.6667,1.0,2/3 linhas com par,2026-10-31T21:30:18.770742+00:00
+20261031_212958,tipos_chaves_compativeis:uf_x_microdado,gold_validacao,bloqueante,APROVADO,0,0,,2026-10-31T21:30:18.811207+00:00
+20261031_212958,taxa_correspondencia_join:uf_x_microdado,gold_validacao,informativa,APROVADO,0.9793,0.95,142/145 linhas com par,2026-10-31T21:30:18.816212+00:00
+20261031_212958,prova_dos_nove_convergencia,gold_validacao,informativa,APROVADO,0.9792,0.95,141/144 recortes com |diferença| <= 0.5 p.p.,2026-10-31T21:30:18.822207+00:00
+20261031_212958,sem_vazamento_de_alvo,gold_features_fase3,bloqueante,APROVADO,0,0,,2026-10-31T21:30:19.977900+00:00
+20261031_212958,correlacao_maxima_feature_alvo,gold_features_fase3,informativa,APROVADO,0.6506,0.98,feature: media_portugues_ano_anterior,2026-10-31T21:30:19.982992+00:00
+20261031_232517,codigo_unico_no_dicionario:alunos.presenca,gold_microdados,bloqueante,APROVADO,1,1,"dicionário: {'0': 'Ausente', '1': 'Presente'}",2026-10-31T23:26:39.887646+00:00
+20261031_232517,codigo_unico_no_dicionario:alunos.preenchimento_caderno,gold_microdados,bloqueante,APROVADO,1,1,"dicionário: {'0': 'Prova não preenchida', '1': 'Prova preenchida'}",2026-10-31T23:26:39.957649+00:00
+20261031_232517,codigo_unico_no_dicionario:alunos.alfabetizado,gold_microdados,bloqueante,APROVADO,1,1,"dicionário: {'0': 'Não', '1': 'Sim'}",2026-10-31T23:26:39.963674+00:00
+20261031_232517,rede_chave_injetiva:alunos,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T23:26:40.006671+00:00
+20261031_232517,codigo_desconhecido:alunos.rede,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T23:26:40.570780+00:00
+20261031_232517,rede_desconhecida,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T23:26:43.539874+00:00
+20261031_232517,uf_derivada_do_codigo_ibge,gold_microdados,bloqueante,APROVADO,0,0,,2026-10-31T23:26:44.364232+00:00
+20261031_232517,rede_chave_injetiva:municipio,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.402896+00:00
+20261031_232517,codigo_desconhecido:municipio.rede,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.412447+00:00
+20261031_232517,rede_desconhecida,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.439447+00:00
+20261031_232517,codigo_desconhecido:municipio.serie,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.446445+00:00
+20261031_232517,rede_desconhecida,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.470272+00:00
+20261031_232517,chave_nula_ou_vazia:ano+id_municipio+rede_chave,meta_alfabetizacao_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.482041+00:00
+20261031_232517,chave_unica:ano+id_municipio+rede_chave,meta_alfabetizacao_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.488406+00:00
+20261031_232517,chave_nula_ou_vazia:ano+id_municipio+rede_chave,municipio (recorte),bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.503449+00:00
+20261031_232517,chave_unica:ano+id_municipio+rede_chave,municipio (recorte),bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.508430+00:00
+20261031_232517,anos_resultado_sem_tabela_meta:municipio_x_meta_municipio,gold_municipio,informativa,APROVADO,0,0,,2026-10-31T23:26:57.513879+00:00
+20261031_232517,tipos_chaves_compativeis:municipio_x_meta_municipio,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.516886+00:00
+20261031_232517,taxa_correspondencia_join:municipio_x_meta_municipio,gold_municipio,bloqueante,APROVADO,0.9778,0.9,10654/10896 linhas com par,2026-10-31T23:26:57.561279+00:00
+20261031_232517,tipos_chaves_compativeis:municipio_x_pesos_alunos,gold_municipio,bloqueante,APROVADO,0,0,,2026-10-31T23:26:57.590799+00:00
+20261031_232517,taxa_correspondencia_join:municipio_x_pesos_alunos,gold_municipio,informativa,REPROVADO,0.9425,0.95,10269/10896 linhas com par,2026-10-31T23:26:57.635800+00:00
+20261031_232517,consistencia_taxa_municipio_vs_tabela_meta,gold_municipio,bloqueante,APROVADO,0.9997,0.95,"6620 idênticas e 10581 até 0,5 p.p. de 10584 comparáveis; maior diferença 36.07 p.p.",2026-10-31T23:26:57.647069+00:00
+20261031_232517,percentual_nulos_meta_do_ano,gold_municipio,informativo,APROVADO,51.98,,5664 valores nulos em 10896 linhas (51.98%).,2026-10-31T23:26:57.649102+00:00
+20261031_232517,rede_chave_injetiva:uf,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.689249+00:00
+20261031_232517,codigo_desconhecido:uf.rede,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.694369+00:00
+20261031_232517,rede_desconhecida,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.698250+00:00
+20261031_232517,codigo_desconhecido:uf.serie,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.704250+00:00
+20261031_232517,rede_desconhecida,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.716250+00:00
+20261031_232517,chave_nula_ou_vazia:ano+sigla_uf+rede_chave,meta_alfabetizacao_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.722256+00:00
+20261031_232517,chave_unica:ano+sigla_uf+rede_chave,meta_alfabetizacao_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.726248+00:00
+20261031_232517,chave_nula_ou_vazia:ano+sigla_uf+rede_chave,uf (recorte),bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.732246+00:00
+20261031_232517,chave_unica:ano+sigla_uf+rede_chave,uf (recorte),bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.734245+00:00
+20261031_232517,anos_resultado_sem_tabela_meta:uf_x_meta_uf,gold_uf,informativa,APROVADO,0,0,,2026-10-31T23:27:15.738247+00:00
+20261031_232517,tipos_chaves_compativeis:uf_x_meta_uf,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.740247+00:00
+20261031_232517,taxa_correspondencia_join:uf_x_meta_uf,gold_uf,bloqueante,APROVADO,1.0,0.95,49/49 linhas com par,2026-10-31T23:27:15.747718+00:00
+20261031_232517,consistencia_taxa_uf_vs_tabela_meta,gold_uf,bloqueante,APROVADO,1.0,0.95,"42 idênticas e 49 até 0,5 p.p. de 49 comparáveis; maior diferença 0.05 p.p.",2026-10-31T23:27:15.755716+00:00
+20261031_232517,tipos_chaves_compativeis:uf_x_pesos_alunos,gold_uf,bloqueante,APROVADO,0,0,,2026-10-31T23:27:15.764815+00:00
+20261031_232517,taxa_correspondencia_join:uf_x_pesos_alunos,gold_uf,informativa,REPROVADO,0.6316,0.95,48/76 linhas com par,2026-10-31T23:27:15.777815+00:00
+20261031_232517,rede_desconhecida,gold_brasil,bloqueante,APROVADO,0,0,,2026-10-31T23:27:31.445244+00:00
+20261031_232517,chave_nula_ou_vazia:ano+rede_chave,meta_alfabetizacao_brasil,bloqueante,APROVADO,0,0,,2026-10-31T23:27:31.450248+00:00
+20261031_232517,chave_unica:ano+rede_chave,meta_alfabetizacao_brasil,bloqueante,APROVADO,0,0,,2026-10-31T23:27:31.456245+00:00
+20261031_232517,tipos_chaves_compativeis:brasil_x_agregado_ufs,gold_brasil,bloqueante,APROVADO,0,0,,2026-10-31T23:27:31.475242+00:00
+20261031_232517,taxa_correspondencia_join:brasil_x_agregado_ufs,gold_brasil,informativa,REPROVADO,0.6667,1.0,2/3 linhas com par,2026-10-31T23:27:31.482242+00:00
+20261031_232517,tipos_chaves_compativeis:brasil_x_microdado,gold_brasil,bloqueante,APROVADO,0,0,,2026-10-31T23:27:31.484247+00:00
+20261031_232517,taxa_correspondencia_join:brasil_x_microdado,gold_brasil,informativa,REPROVADO,0.6667,1.0,2/3 linhas com par,2026-10-31T23:27:31.493245+00:00
+20261031_232517,tipos_chaves_compativeis:uf_x_microdado,gold_validacao,bloqueante,APROVADO,0,0,,2026-10-31T23:27:48.640801+00:00
+20261031_232517,taxa_correspondencia_join:uf_x_microdado,gold_validacao,informativa,APROVADO,0.9793,0.95,142/145 linhas com par,2026-10-31T23:27:48.649799+00:00
+20261031_232517,prova_dos_nove_convergencia,gold_validacao,informativa,APROVADO,0.9792,0.95,141/144 recortes com |diferença| <= 0.5 p.p.,2026-10-31T23:27:48.657799+00:00
+20261031_232517,sem_vazamento_de_alvo,gold_features_fase3,bloqueante,APROVADO,0,0,,2026-10-31T23:28:21.230135+00:00
+20261031_232517,correlacao_maxima_feature_alvo,gold_features_fase3,informativa,APROVADO,0.6506,0.98,feature: media_portugues_ano_anterior,2026-10-31T23:28:21.237934+00:00
